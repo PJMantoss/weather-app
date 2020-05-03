@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="app">
       <main>
-        <div classname="search-box">
+        <div className="search-box">
           <input 
               className="search-bar" 
               type="text" 

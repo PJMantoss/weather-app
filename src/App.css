@@ -36,8 +36,9 @@ main {
 .search-box .search-bar {
     display: block;  
     width: 100%;
-
     padding: 15px;
+
+    appearance: none;
     outline: none;
     border: none;
     border-radius: 0px 0px 16px 16px;
