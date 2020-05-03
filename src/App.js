@@ -65,6 +65,9 @@ function App() {
               className="search-bar" 
               type="text" 
               placeholder="Enter a city..." 
+              onChange={e => setQuery(e.target.value)}
+              value={query}
+              onKeyPress={search}
           />
         </div>
 
