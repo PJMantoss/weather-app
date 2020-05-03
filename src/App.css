@@ -14,12 +14,6 @@ font-family: 'Sarabun', sans-serif;
     color: white;
 }
 
-@media (min-width: 800px){
-  .app {
-    background-image: url('./assets/bg.jpg');
-  }
-}
-
 .app.warm {
   background-image: url('./assets/warm-bg.jpg');
 }
@@ -89,6 +83,16 @@ main {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 800px){
+  .app {
+    background-image: url('./assets/bg.jpg');
+  }
+
+  .search-box .search-bar {
+    width: 400px;
+  }
 }
 
 .weather-box .weather {
