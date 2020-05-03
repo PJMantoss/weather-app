@@ -8,6 +8,9 @@ const api = {
 
 function App() {
 
+  const [query, setQuery] = useState('');
+  const [weather, setWeather] = useState({});
+
   const dateBuilder = d => {
     let months = [
         "January", 
