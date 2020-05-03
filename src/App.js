@@ -17,6 +17,11 @@ function App() {
               placeholder="Enter a city..." 
           />
         </div>
+
+        <div className="location-box">
+          <div className="location">New York city, US</div>
+          <div className="date">{dateBuilder(newDate())}</div>
+        </div>
       </main>
     </div>
   );

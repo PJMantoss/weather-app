@@ -29,13 +29,14 @@ main {
 }
 
 .search-box {
-  margin: 0 0 75px;
+  margin: 0 auto;
   width: 100%;
 }
 
 .search-box .search-bar {
-    display: block;  
-    width: 100%;
+    display: block;
+    margin: 0 auto;  
+    width: 95%;
     padding: 15px;
 
     appearance: none;
@@ -50,5 +51,8 @@ main {
     color: #313131;
     font-family: 'Sarabun', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+}
+
+.search-box .search-bar:focus {
+  background: rgba(255, 255, 255, 0.75);
 }
